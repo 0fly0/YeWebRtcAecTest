@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common_audio">
+      <UniqueIdentifier>{66ad712b-c42b-4c22-97ea-d8e2f3ad95ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{63cc4f27-21bc-4ce7-83e2-f625badd73cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\audio_processing">
+      <UniqueIdentifier>{94af7037-7785-49c4-8d28-2772a8552c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\audio_processing\utility">
+      <UniqueIdentifier>{24fd58a4-ae06-4b28-8c39-61e51b231d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system_wrappers">
+      <UniqueIdentifier>{69e72b6b-5566-4b51-acf2-34ee7e5f2c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system_wrappers\include">
+      <UniqueIdentifier>{eb5e81fd-e286-4152-ba99-e7b905302f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system_wrappers\source">
+      <UniqueIdentifier>{7d52db67-cd13-4a62-abcc-1cfb9ce3f497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rtc_base">
+      <UniqueIdentifier>{ed4c3668-a129-471a-a229-9e5211ee7085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common_audio\signal_processing">
+      <UniqueIdentifier>{da5f088c-8cb6-400d-878a-dc50de8f0d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common_audio\signal_processing\include">
+      <UniqueIdentifier>{07da9e27-2044-49f4-b865-3daffe52fdf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="echo_cancellation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="array_view.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aec_resampler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aec_core_optimized_methods.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aec_core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aec_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common_audio\ring_buffer.h">
+      <Filter>common_audio</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\audio_processing\utility\block_mean_calculator.h">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\audio_processing\utility\delay_estimator.h">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\audio_processing\utility\delay_estimator_internal.h">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\audio_processing\utility\delay_estimator_wrapper.h">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\audio_processing\utility\ooura_fft.h">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\audio_processing\utility\ooura_fft_tables_common.h">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\include\cpu_features_wrapper.h">
+      <Filter>system_wrappers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\include\field_trial.h">
+      <Filter>system_wrappers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\include\field_trial_default.h">
+      <Filter>system_wrappers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\include\metrics.h">
+      <Filter>system_wrappers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\include\metrics_default.h">
+      <Filter>system_wrappers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="system_wrappers\include\sleep.h">
+      <Filter>system_wrappers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="rtc_base\checks.h">
+      <Filter>rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="rtc_base\criticalsection.h">
+      <Filter>rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="rtc_base\platform_thread_types.h">
+      <Filter>rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="rtc_base\thread_annotations.h">
+      <Filter>rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="rtc_base\timeutils.h">
+      <Filter>rtc_base</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\audio_processing\utility\ooura_fft_tables_neon_sse2.h">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="common_audio\signal_processing\include\signal_processing_library.h">
+      <Filter>common_audio\signal_processing\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="echo_cancellation.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aec_resampler.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aec_core_sse2.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aec_core.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common_audio\ring_buffer.c">
+      <Filter>common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\audio_processing\utility\block_mean_calculator.cc">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\audio_processing\utility\delay_estimator.cc">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\audio_processing\utility\delay_estimator_wrapper.cc">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\audio_processing\utility\ooura_fft.cc">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\audio_processing\utility\ooura_fft_sse2.cc">
+      <Filter>modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\source\cpu_features.cc">
+      <Filter>system_wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\source\field_trial_default.cc">
+      <Filter>system_wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\source\metrics_default.cc">
+      <Filter>system_wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="system_wrappers\source\sleep.cc">
+      <Filter>system_wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="rtc_base\checks.cc">
+      <Filter>rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="rtc_base\criticalsection.cc">
+      <Filter>rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="rtc_base\platform_thread_types.cc">
+      <Filter>rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="common_audio\signal_processing\randomization_functions.c">
+      <Filter>common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="rtc_base\timeutils.cc">
+      <Filter>rtc_base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
